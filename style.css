@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Poppins;
+}
+
+body {
+      height: 100vh;
+      width: 100%;
+      background: url('bg3.avif');
+      background-size: cover;
+      background-position: 15% 0;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+}
+
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 6%;
+      background: transparent;
+      height: 60px;
+      width: 100%;
+}
+
+.header h2 {
+      font-size: 1.9em;
+      color: rgb(90, 33, 33);
+      letter-spacing: 0.5px;
+      font-weight: 810;
+}
+
+.header i {
+      font-size: 1.9em;
+      color: black;
+      font-weight: 810;
+      cursor: pointer;
+}
+
+.menu {
+      position: absolute;
+      top: 0;
+      right: -100%;
+      width: 25%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.78);
+      padding: 150px 80px;
+      transition: all 0.8s ease;
+}
+
+.menu .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+
+.menu .links a {
+      text-decoration: none;
+      font-size: 1.1em;
+      color: white;
+}
+
+.menu button {
+      padding: 8px 30px;
+      background: white;
+      color: black;
+      border: 1px solid red;
+}
+
+.menu i {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 1.8em;
+      color: white;
+      font-weight: 900;
+      cursor: pointer;
+}
